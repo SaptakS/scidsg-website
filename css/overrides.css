@@ -358,6 +358,40 @@ h3, h4, h5, h6 {
 		text-align: center;
 	}
 
+/* Project Info styles */
+.projectInfo {
+  margin-top: 5.5rem; /* height of logo: 1.5rem, padding: 2 rem on top & bottom in nav */
+}
+
+.projectInfo .wrapper {
+  width: auto;
+  align-items: center;
+}
+
+.projectInfo h1, .projectInfo h2, .projectInfo h3, .projectInfo h4 {
+  text-align: center;
+}
+
+.projectInfo h1 {
+  font-size: var(--font-size-1);
+  font-family: 'Sans Bold';
+}
+
+.projectInfo h2 {
+  font-size: var(--font-size-2);
+}
+
+.projectInfo h3 {
+  font-size: var(--font-size-3);
+}
+
+.projectInfo h4 {
+  font-size: var(--font-size-4);
+}
+
+.projectInfo ul, .projectInfo ol {
+  max-width: 640px;
+}
 @media only screen and (max-width: 1280px) {
 
 }

@@ -1,0 +1,3 @@
+[submodule "project-info"]
+	path = project-info
+	url = git@github.com:scidsg/project-info.git
